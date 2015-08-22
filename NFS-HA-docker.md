@@ -113,12 +113,14 @@ Client客户端：
 根据当期的系统环境，我们需要安装nfs-utils，rpcbind
 
 Server1：
+
     [root@server /]# yum  install  nfs-utils  rpcbind -y   #安装服务
     [root@server /]# rpm -aq  nfs-utils rpcbind#检查服务软件
     rpcbind-0.2.0-11.el6.x86_64
     nfs-utils-1.2.3-54.el6.x86_64
 
 Client：
+
     [root@client/]# yum  install  nfs-utils  rpcbind -y   #安装服务
     [root@client/]# rpm -aq  nfs-utils rpcbind#检查服务软件
     rpcbind-0.2.0-11.el6.x86_64
